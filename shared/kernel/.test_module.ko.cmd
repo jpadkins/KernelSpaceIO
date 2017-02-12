@@ -1,0 +1,1 @@
+cmd_/home/vagrant/shared/kernel/test_module.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.13.0-85-generic/scripts/module-common.lds --build-id  -o /home/vagrant/shared/kernel/test_module.ko /home/vagrant/shared/kernel/test_module.o /home/vagrant/shared/kernel/test_module.mod.o
